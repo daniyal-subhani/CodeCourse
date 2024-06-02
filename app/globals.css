@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: rgb(20, 169, 255);
+}
+
+body {
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    /* height: 90vh; */
+}
+
+.font-pizzeta {
+    font-family: 'PizzetaFont';
+}
+.cursive{ 
+    font-family: cursive;
+}
+.glassmorphism {
+    background: rgba( 50, 195, 255, 0.1 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@font-face {
+    font-family: 'PizzetaFont';
+    src: url('/assets/fonts/otf/pizzeta-pizzeta-svg-400.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
